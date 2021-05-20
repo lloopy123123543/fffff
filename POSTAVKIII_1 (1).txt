@@ -70,6 +70,10 @@ INSERT INTO Postavki values(8,8,8,8,855660);
 
 
 
+select * from Personal, Pokupatel, Sortirovshik, Postavki WHERE Postavki.Personal_id = Personal.Personal_id and Postavki.Pokupatel_id = Pokupatel.Pokupatel_id and Postavki.Sortirovshik_id = Sortirovshik.Sortirovshik_id;
+
+
+
 
 
 
